@@ -39,7 +39,7 @@
         <env.buildNumber />
 
         <!-- compiled against osgi Revision -->
-        <osgi.ver>6.0.0</osgi.ver>
+        <osgi.ver>7.0.0</osgi.ver>
         <!-- platform versions -->
         <!-- equinox - repackaged in ${basedir}/lib/equinox -->
         <equinox.ver>3.17.100</equinox.ver>

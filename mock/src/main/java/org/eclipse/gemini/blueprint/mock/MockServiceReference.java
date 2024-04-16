@@ -244,4 +244,8 @@ public class MockServiceReference implements ServiceReference {
 
 		return result;
 	}
+
+	public Dictionary getProperties() {
+		return properties;
+	}
 }

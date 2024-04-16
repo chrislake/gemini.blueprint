@@ -14,6 +14,8 @@
 
 package org.eclipse.gemini.blueprint.service.importer.support.internal.aop;
 
+import java.util.Dictionary;
+
 import org.eclipse.gemini.blueprint.service.importer.ServiceReferenceProxy;
 import org.eclipse.gemini.blueprint.service.importer.support.internal.util.ServiceComparatorUtil;
 import org.osgi.framework.Bundle;
@@ -81,5 +83,9 @@ public class StaticServiceReferenceProxy implements ServiceReferenceProxy {
 
 	public int compareTo(Object other) {
 		return ServiceComparatorUtil.compare(target, other);
+	}
+
+	public Dictionary getProperties() {
+		return target.getProperties();
 	}
 }
