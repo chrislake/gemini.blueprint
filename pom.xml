@@ -42,11 +42,11 @@
         <osgi.ver>6.0.0</osgi.ver>
         <!-- platform versions -->
         <!-- equinox - repackaged in ${basedir}/lib/equinox -->
-        <equinox.ver>3.17.100</equinox.ver>
+        <equinox.ver>3.19.0</equinox.ver>
         <!-- Knopflerfish -->
-        <kf.ver>7.1.2</kf.ver>
+        <kf.ver>8.0.11</kf.ver>
         <!-- Felix 4.4.x supports OSGi R5 -->
-        <felix.ver>4.4.0</felix.ver>
+        <felix.ver>7.0.5</felix.ver>
 
         <!-- javadoc configuration -->
         <javadoc.loc>${basedir}/docs/src/javadoc</javadoc.loc>
@@ -284,7 +284,7 @@
             </dependency>
 
             <dependency>
-                <groupId>org.knopflerfish</groupId>
+                <groupId>org.knopflerfish.kf6</groupId>
                 <artifactId>framework</artifactId>
                 <version>${kf.ver}</version>
             </dependency>
@@ -824,7 +824,7 @@
             <id>knopflerfish</id>
             <dependencies>
                 <dependency>
-                    <groupId>org.knopflerfish</groupId>
+                    <groupId>org.knopflerfish.kf6</groupId>
                     <artifactId>framework</artifactId>
                     <version>${kf.ver}</version>
                     <scope>provided</scope>
@@ -1047,9 +1047,9 @@
         </repository>
 
         <repository>
-            <id>knopflerfish-repo</id>
-            <name>Official Knopflerfish Repository</name>
-            <url>https://www.knopflerfish.org/maven2/</url>
+            <id>knopflerfish-kf6-repo</id>
+            <name>Official Knopflerfish KF6 Repository</name>
+            <url>https://resources.knopflerfish.org/repo/maven2/release/</url>
         </repository>
     </repositories>
 

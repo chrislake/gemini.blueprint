@@ -77,7 +77,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>org.knopflerfish</groupId>
+            <groupId>org.knopflerfish.kf6</groupId>
             <artifactId>framework</artifactId>
             <scope>provided</scope>
             <optional>true</optional>
